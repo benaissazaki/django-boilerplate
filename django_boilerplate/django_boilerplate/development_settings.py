@@ -11,3 +11,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Mailing 
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

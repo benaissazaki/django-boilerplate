@@ -8,6 +8,8 @@ pylint = "*"
 
 [packages]
 django = "*"
+django-allauth = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
